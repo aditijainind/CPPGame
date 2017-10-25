@@ -1,0 +1,45 @@
+Name: Aditi Jain
+Clemson Email Address: aditij@g.clemson.edu
+
+Project no: 6
+Project due date: December 4, 2015
+
+Project description:
+Title: Object Pooling
+This project is a game created using C++ and SDL. 
+Implemented Features:
+This is a game with toothpaste fighting germs.
+Object pooling: 
+1. Bullets
+2. Killed Enemies
+Modified Frame Factory to return frames for scaled sprite
+Sprites:
+1. Player: Tube of toothpaste
+2. Adversary Sprites: Germs
+3. Projectile: toothpaste
+4. Painter's algorithm sprites: 
+Actions:
+1. Killing a germ sprite using a foam missile (causing the germs to explode) earns the player points
+Keeping Score:
+The player gets points for killing an adversary sprite.
+Rules:
+1. Player has three lives, it bursts after being hit by 8 germs and uses up one life.
+2. The player has to kill a total of 28 germs to win within these three lives.
+AI
+The red germs attack.
+Conclusion:
+The player is shown whether they won or lost, and their score and they can press 'Q' to quit the game. 
+
+
+How you made your sprites:
+Download sources:
+http://www.clipartpanda.com/clipart_images/candy-gif-5642456
+http://www.clipartpanda.com/clipart_images/free-cupcake-clipart-1933201
+http://www.clipartsheep.com/toothpaste-1-pin-clipart-1340284.html
+http://www.clipartsheep.com/clip-art-germs-and-bacteria-clipart-355676.html
+
+Background sprite created using Adobe photoshop
+
+Sound:
+http://www.freesound.org/people/tubbers/sounds/180639/
+http://www.freesound.org/people/jtragaudio/sounds/238159/
