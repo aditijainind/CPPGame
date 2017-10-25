@@ -1,0 +1,225 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<screenTitle>Aditi Jain's Fight Tooth Decay Animation</screenTitle>
+<maxStringSize>50</maxStringSize>
+<projectTitle>Fight Tooth Decay</projectTitle>
+<frameCap>60</frameCap>
+<framesAreCapped>true</framesAreCapped>
+<frameMax>300</frameMax>
+<username>aditij</username>
+
+<view>
+  <width>1280</width>
+  <height>720</height>
+</view>
+
+<world>
+  <width>5000</width>
+  <height>960</height>
+</world>
+
+<clock>
+  <locX>25</locX>
+  <locY>40</locY>
+</clock>
+
+<hud>
+  <locX>20</locX>    
+  <locY>20</locY>
+  <width>200</width>
+  <height>420</height>
+  <intervalX>5</intervalX>
+  <intervalY>15</intervalY>
+  <hudDuration>3</hudDuration>
+  <text1>A: Left</text1>
+  <text2>D: Right</text2>
+  <text3>S: Down</text3>
+  <text4>W: Up</text4>
+  <text5>F1: Toggle HUD</text5>
+  <text7>Space: Shooting by Player</text7>
+  <text8>G: Toggle God mode</text8>
+</hud>
+<back1>
+  <file>images/LowestBackground.png</file>
+  <factor>0</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>1280</width>
+  <height>980</height>
+  <transparency>false</transparency>
+</back1>
+
+<back2>
+  <file>images/UpperBg.png</file>
+  <factor>4</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>1280</width>
+  <height>980</height>
+  <transparency>false</transparency>
+</back2>  
+
+
+<font name="font">
+  <file>font/dyslexic-bold.otf</file>
+  <size>16</size>
+  <red>0</red>
+  <green>0</green>
+  <blue>0</blue>
+  <unused>0</unused>
+</font>
+  
+
+<PlayerRight>
+  <file>images/playerRight.png</file>
+  <startLoc x="120" y="350"/>
+
+  <frames>2</frames>
+  <frameInterval>20</frameInterval>
+
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <maximumX>4800</maximumX>
+  <maximumY>650</maximumY>
+  <minimumX>10</minimumX>
+  <minStartLocX>700</minStartLocX>
+  <minimumY>250</minimumY>
+  <width>267</width>
+  <height>120</height>
+  
+  <speedX>-400</speedX>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+  <chunk>
+    <size>25</size>
+    <distance>200</distance>
+  </chunk>
+  <health>8</health>
+  <lives>2</lives>
+</PlayerRight>  
+    
+<PlayerLeft>
+  <file>images/playerleft.png</file>
+  <startLoc x="120" y="350"/>
+  <frames>2</frames>
+  <frameInterval>20</frameInterval>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <maximumX>4800</maximumX>
+  <maximumY>650</maximumY>
+  <minimumX>10</minimumX>
+  <minimumY>250</minimumY>
+  <width>267</width>
+  <height>120</height>
+  <speedX>-200</speedX>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+</PlayerLeft>
+
+<PlayerRightBullet>
+  <file>images/bullet.png</file>
+  <width>100</width>
+  <height>100</height>
+  <distance>600</distance>
+  <Interval>200</Interval>
+  <transparency>true</transparency>
+  <speedX>-400</speedX>
+</PlayerRightBullet>
+<numberOfpainterSprites>300</numberOfpainterSprites>
+  
+<painterSprite>
+  <file>images/painterSprite.png</file>
+  <cushion>50</cushion>
+  <scale min="0.5" max="1.5"/>
+  <src x="0" y="0"/>
+  <width>32</width>
+  <height>67</height>
+  <loc x="320" y="240"/>
+  <speed x="250" y="250"/>
+  <transparency>true</transparency>
+</painterSprite>
+
+<health>
+  <locX>20</locX>
+  <locY>600</locY>
+  <length>200</length>
+  <thickness>14</thickness>
+  <increment>20</increment>
+  <interval>1000</interval>
+  <deltaTime>0</deltaTime>
+  <resetDur>20</resetDur>
+</health>
+
+<numberOfenemies>20</numberOfenemies>
+<enemy>
+  <file>images/germ.png</file>
+  <cushion>50</cushion>
+  <scale min="0.5" max="1.5"/>
+  <startLoc x="500" y="350"/>
+  <width>128</width>
+  <height>128</height>
+  <minSpeedX>-200</minSpeedX>
+  <maxSpeedX>200</maxSpeedX>
+  <speedY>0</speedY>
+  <maximumY>450</maximumY>
+  <minimumY>250</minimumY>
+  <maximumX>4800</maximumX>
+  <minimumX>10</minimumX>
+  <minStartLocX>700</minStartLocX>
+  <transparency>true</transparency>
+  <chunk>
+    <size>15</size>
+    <distance>200</distance>
+  </chunk>
+</enemy>
+
+<numberOfsmartenemies>8</numberOfsmartenemies>
+  
+<smartEnemy>
+  <file>images/germ2.png</file>
+  <cushion>50</cushion>
+  <scale min="0.5" max="1.5"/>
+  <startLoc x="500" y="350"/>
+  <width>128</width>
+  <height>128</height>
+  <minSpeedX>-200</minSpeedX>
+  <maxSpeedX>200</maxSpeedX>
+  <speedY>200</speedY>
+  <attackDistanceX>30</attackDistanceX>
+  <SpeedX>0</SpeedX>
+  <maximumY>450</maximumY>
+  <minimumY>250</minimumY>
+  <maximumX>4800</maximumX>
+  <minimumX>10</minimumX>
+  <minStartLocX>700</minStartLocX>
+  <transparency>true</transparency>
+  <chunk>
+    <size>15</size>
+    <distance>200</distance>
+  </chunk>
+</smartEnemy>
+  
+<godMode>
+  <message>God Mode</message>
+  <locX>900</locX>
+  <locY>30</locY>
+</godMode>
+
+<sound>
+  <background>sound/180639__tubbers__ode-to-joy-partial.mp3</background>
+  <bullet>sound/238159__jtragaudio__fuzzsound-bullet.wav</bullet>
+</sound>
+<hudConclusion>
+  <height>200</height>
+  <width>200</width>
+  <locX>450</locX>
+  <locY>300</locY>
+  <intervalX>5</intervalX>
+  <intervalY>15</intervalY>
+  <text1>R: Reset</text1>
+  <text2>Q: Quit</text2>
+
+</hudConclusion>
+</GameData>
